@@ -1,0 +1,116 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-image: url("space.jpeg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  height: 80%;
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  border-radius: 20px;
+}
+
+::scrollbar {
+  display: none;
+}
+
+
+
+
+
+
+body {
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+.one {
+  background: #81234e;
+
+}
+
+.two {
+  background: #df5252;
+
+}
+
+.three {
+  background: #ff9a56;
+
+}
+
+.four {
+  background: #371465;
+
+}
+.five {
+  background: blueviolet;
+  align-items: center;
+}
+.six {
+  background: cyan;
+}
+.zero {
+  background: palevioletred;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+h2 {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-20%);
+  transform: translateX(40%);
+  width: 30vh;
+  font-size: 20px;
+  color: #fff;
+}
+.music {
+  position: fixed;
+  background: whitesmoke;
+}
+img {
+  margin: auto;
+  margin-left: 40px;
+}
+video {
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+audio {
+  margin-top: 120px;
+  margin-left: 570px;
+}
+.txt {
+  position: relative;
+  background-color: whitesmoke;
+}
